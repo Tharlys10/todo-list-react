@@ -21,7 +21,7 @@ export function TaskList() {
       return
     }
 
-    const id = Math.floor(Math.random());
+    const id = Math.floor(Math.random() * 1000000);
 
     const newTask: Task = {
       id,
